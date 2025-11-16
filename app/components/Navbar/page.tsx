@@ -10,7 +10,7 @@ import {
     NavbarLogo,
     NavbarButton,
 } from "@/components/ui/resizable-navbar";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
 const AppNavbar = () => {
@@ -36,20 +36,22 @@ const AppNavbar = () => {
             href="/start"
             variant="primary"
             className="
-            flex items-center gap-5
+            group 
+            flex items-center gap-3
             bg-[#7011F6] text-white 
-            px-6 py-2.5
+            px-5 py-2.5
             rounded-full
             font-medium text-md
             transition-all duration-300
             hover:bg-[#7011F6]/90"
         >
             Login
-            <ChevronRight className="w-4 h-4 stroke-[2.5]" />
+            <ArrowRight className="w-4 h-4 stroke-[2.5] transition-all duration-300 group-hover:translate-x-1" />
         </NavbarButton>
 
     </NavBody>
 
+      {/* Mobile Navbar */}
         <MobileNav>
         <MobileNavHeader>
             <NavbarLogo />

@@ -43,7 +43,7 @@ const FaqComponent = () => {
   };
 
   return (
-    <div className="min-h-screen px-4 py-16 sm:px-6 lg:px-8">
+    <div className="min-h-screen px-8 py-4 md:pt-12 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16">
           <div className="lg:col-span-2">

@@ -5,9 +5,9 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className='pt-4 md:pt-12 px-4 md:pl-12 md:pr-12 rounded-lg mt-4 md:mt-8'>
+    <div className='pt-4 md:pt-12 px-4 md:pl-12 md:pr-12 rounded-lg mt-16 md:mt-8 '>
         <div className="min-h-[85vh] flex items-center justify-center p-4 md:p-8 rounded-xl relative overflow-hidden" style={{
-      background: 'radial-gradient(ellipse at top, #fff 0%, #fff 54%, #7011F6 100%)'
+      background: 'radial-gradient(ellipse at top, #fff 10%, #fff 54%, #7011F6 100%)'
     }}>
       <div 
         className="absolute inset-0 opacity-30" 
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <span className='rounded-full bg-white p-2'><ArrowUpRight className='h-5 w-5 md:h-6 md:w-6 text-black'/></span>
           </Button> */}
            <button className="group inline-flex items-center gap-2 rounded-full bg-[#7011F6] pl-4 pr-2 py-1.5 text-base font-semibold text-white transition-all duration-200 hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 cursor-pointer">
-                           Plan my Trip
+                           Start my Trip
                            <span className="rounded-full bg-white p-1 transition-transform duration-300">
                                <ArrowUpRight className="h-5 w-5 md:h-6 md:w-6 text-black transition-transform duration-300 group-hover:rotate-45" />
                            </span>

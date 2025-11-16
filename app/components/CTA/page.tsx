@@ -36,29 +36,29 @@ const CTA = () => {
             <div className="flex flex-wrap items-center justify-center gap-8 md:gap-0">
     
                 <div className="flex-shrink-0 text-center">
-                <p className="text-5xl font-bold text-gray-900 md:text-2xl">242</p>
+                <p className="text-xl font-bold text-gray-900 md:text-2xl">242</p>
                 <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Vacations</p>
                 </div>
                 <div className="hidden h-16 w-px bg-gray-300 md:mx-12 md:block lg:mx-16" />
 
               <div className="flex-shrink-0 text-center">
-                <p className="text-5xl font-bold text-gray-900 md:text-2xl">242</p>
-                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Vacations</p>
+                <p className="text-xl font-bold text-gray-900 md:text-2xl">4.9</p>
+                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Traveller Ratings</p>
               </div>
 
               <div className="hidden h-16 w-px bg-gray-300 md:mx-12 md:block lg:mx-16" />
 
 
               <div className="flex-shrink-0 text-center">
-                <p className="text-5xl font-bold text-gray-900 md:text-2xl">242</p>
-                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Vacations</p>
+                <p className="text-xl font-bold text-gray-900 md:text-2xl">78</p>
+                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Countries</p>
               </div>
 
               <div className="hidden h-16 w-px bg-gray-300 md:mx-12 md:block lg:mx-16" />
 
               <div className="flex-shrink-0 text-center">
-                <p className="text-5xl font-bold text-gray-900 md:text-2xl">242</p>
-                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Vacations</p>
+                <p className="text-xl font-bold text-gray-900 md:text-2xl">8,354</p>
+                <p className="mt-1 text-base font-normal text-gray-700 md:text-lg">Average Savings per trip</p>
               </div>
             </div>
           </div>

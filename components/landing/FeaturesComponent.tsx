@@ -16,7 +16,7 @@ const PreferencesSection: React.FC<PreferencesSectionProps> = ({
   imageSrc,
 }) => {
   return (
-    <section className="w-full py-16 md:py-8 px-6 md:px-12 lg:px-20">
+    <section className="w-full py-16 md:py-8 px-2 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div
           className={`flex flex-col ${

@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
     </footer>
-        <div className='bg-[#7011F6] pt-14 '>
+        <div className='bg-[#7011F6] pt-14 hidden md:block'>
          <motion.div 
         className='mx-auto w-fit'
         initial={{ opacity: 0, y: 0 }}

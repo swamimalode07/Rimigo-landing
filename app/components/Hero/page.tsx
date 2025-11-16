@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="w-full max-w-6xl flex flex-col justify-between h-full relative z-10">
 
         <div className="text-center mb-8 md:mb-24 mt-32 md:mt-0 relative z-10">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight px-4">
+          <h1 className="font-montserrat font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-4 leading-tight px-4">
             Your vacation made easy<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>with end-to-end assistance
           </h1>
@@ -27,10 +27,16 @@ const HeroSection = () => {
             Plan with expert help, save more, and get support anytime—<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>your trip stays smooth from start to finish.
           </p>
-          <Button className='bg-[#7011F6] hover:bg-[#7011F6]/90 text-base md:text-lg rounded-full p-5 md:p-6 pr-2'>
+          {/* <Button className='bg-[#7011F6] hover:bg-[#7011F6]/90 text-base md:text-lg rounded-full p-2 md:p-4  '>
             Start your trip
             <span className='rounded-full bg-white p-2'><ArrowUpRight className='h-5 w-5 md:h-6 md:w-6 text-black'/></span>
-          </Button>
+          </Button> */}
+           <button className="group inline-flex items-center gap-2 rounded-full bg-[#7011F6] pl-4 pr-2 py-1.5 text-base font-semibold text-white transition-all duration-200 hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 cursor-pointer">
+                           Plan my Trip
+                           <span className="rounded-full bg-white p-1 transition-transform duration-300">
+                               <ArrowUpRight className="h-5 w-5 md:h-6 md:w-6 text-black transition-transform duration-300 group-hover:rotate-45" />
+                           </span>
+                       </button>
         </div>
 
         <div className="hidden lg:block bg-white rounded-[25px] p-3 absolute -bottom-18 left-1/2 transform -translate-x-1/2 shadow-lg w-full max-w-5xl z-20">

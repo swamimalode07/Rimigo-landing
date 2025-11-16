@@ -46,9 +46,8 @@ const PreferencesSection: React.FC<PreferencesSectionProps> = ({
                 alt="Section Illustration"
                 width={300}
                 height={300}
-                className="w-full h-auto animate-float drop-shadow-xl"
+                className="w-full h-auto"
               />
-              <div className="absolute inset-0 -z-10 blur-3xl opacity-30 bg-purple-300"></div>
             </div>
           </div>
         </div>

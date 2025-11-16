@@ -4,6 +4,7 @@ import HeroSection from "./components/Hero/page";
 import Features from "./components/Features/page";
 import FaqComponent from "./components/FAQ/page";
 import Footer from "./components/Footer/page";
+import CTA from "./components/CTA/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </main>
       <Features/>
       <FaqComponent/>
+      <CTA/>
       <Footer/>
    </div>
   );

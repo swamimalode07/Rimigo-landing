@@ -136,3 +136,8 @@
 .font-montserrat {
   font-family: var(--font-montserrat), sans-serif;
 }
+
+::selection {
+  background: #7011F6;
+  color: white;
+}

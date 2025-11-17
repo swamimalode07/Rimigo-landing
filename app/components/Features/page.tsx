@@ -4,7 +4,7 @@ import PreferencesSection from '@/components/landing/FeaturesComponent'
 const Features = () => {
     return (
     <div>
-         <div className="w-full text-center py-10 px-4">
+         <div className="w-full text-center py-4 px-8">
       <h2 className="text-3xl md:text-5xl font-semibold  mt-8 text-[#7011F6]">
         By your side at every step of the journey
       </h2>

@@ -16,7 +16,7 @@ const PreferencesSection: React.FC<PreferencesSectionProps> = ({
   imageSrc,
 }) => {
   return (
-    <section className="w-full py-16 md:py-8 px-2 md:px-12 lg:px-20">
+    <section className="w-full py-2 md:py-5 px-2 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div
           className={`flex flex-col ${
@@ -46,7 +46,8 @@ const PreferencesSection: React.FC<PreferencesSectionProps> = ({
                 alt="Section Illustration"
                 width={300}
                 height={300}
-                className="w-full h-auto"
+                className="w-full h-auto select-none pointer-events-none"
+                draggable={false}
               />
             </div>
           </div>
